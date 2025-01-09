@@ -126,7 +126,7 @@ function App() {
       <div className=' flex space-x-4'>
         {/* first card */}
         <section className='flex md:flex-row flex-col md:gap-4 gap-2 items-center p-5 max-w-[243px] bg-white'>
-  <img src="/groupUser.png" alt="image" className='block md:hidden'/>
+  <img src="/groupUser.png" alt="image" className='w-8 h-8'/>
   <div>
     <h5 className='font-medium md:text-base text-sm text-[#343B4F]'>Total Employees</h5>
     <p className='text-[#6C757D] text-sm md:text-left'>{employees.length}</p>
@@ -134,7 +134,7 @@ function App() {
 </section>
                 {/* second card */}
                 <section className='flex md:flex-row flex-col md:gap-4 gap-2 items-center p-5 max-w-[243px] bg-white'>
-  <img src="/groupUser.png" alt="image" className='w-8 h-8'/>
+  <img src="/money.png" alt="image" className='w-8 h-8'/>
   <div>
     <h5 className='font-medium md:text-base text-sm text-[#343B4F]'>Total Salary</h5>
     <p className='text-[#6C757D] text-sm md:text-left'>
